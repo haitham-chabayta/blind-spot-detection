@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Control</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Welcome to BlindSpot detection!</h2>
+  <h6>determine how to control your BlindSpot app</h6>
+   <ion-list>
+       <ion-item>
+        <ion-label>mute</ion-label>
+          <ion-toggle (ionChange)="muteApp()" [(ngModel)]="led1"></ion-toggle>
+      </ion-item>
+
+            
+        <ion-item>
+          <ion-label>turnOff</ion-label>
+            <ion-toggle (ionChange)="turnOffHost()" [(ngModel)]="led2"></ion-toggle>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>controlled by speed </ion-label>
+            <ion-toggle (ionChange)="speedControl()" [(ngModel)]="led3"></ion-toggle>
+        </ion-item>
+    </ion-list>
+
+  
+</ion-content>
