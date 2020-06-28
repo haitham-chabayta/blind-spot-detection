@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Blindspot Tab
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+  <ion-card>
+
+    <ion-card-header>
+      Left Side / distance: {{lft}} cm
+    </ion-card-header>
+    <ion-card-content>
+      {{leftside}}
+    </ion-card-content>
+
+  </ion-card>
+
+  
+
+  <ion-card>
+
+    <ion-card-header>
+     Right Side / distance: {{rght}} cm 
+    </ion-card-header>
+    <ion-card-content>
+      {{rightside}}
+    </ion-card-content>
+
+  </ion-card>
+
+<ion-grid>
+  <ion-row>
+   
+    <ion-col col-12>
+      <img width="60%" style="display:block; margin: auto" src="https://cdn2.iconfinder.com/data/icons/top-view-cars-1/50/49-512.png">
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col col-12> 
+   
+      <img *ngIf="leftside" width="25%"  style="float:left;" src="https://www.onlygfx.com/wp-content/uploads/2019/04/8-grunge-word-warning-1.png">
+      <img *ngIf="rightside" width="25%"  style="float:right;" src="https://www.onlygfx.com/wp-content/uploads/2019/04/8-grunge-word-warning-1.png">
+    </ion-col>
+
+  </ion-row>
+</ion-grid>
+ 
+    
+
+
+</ion-content>
