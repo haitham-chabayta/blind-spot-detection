@@ -1,1 +1,1 @@
-# object in blind spot detection project
+# Object in blind spot detection project
