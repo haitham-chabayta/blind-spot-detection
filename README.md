@@ -22,7 +22,7 @@
     <a href="https://github.com/haitham-chabayta/blind-spot-detection"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/haitham-chabayta/blind-spot-detection/demo-videos">View Demo</a>
+    <a href="https://github.com/haitham-chabayta/blind-spot-detection/tree/master/demo-videos">View Demo</a>
     ·
     <a href="https://github.com/haitham-chabayta/blind-spot-detection/issues">Report Bug</a>
     ·
