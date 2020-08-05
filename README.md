@@ -14,10 +14,10 @@
      <img src="images/logo.png" alt="Logo" width="80" height="80">
  </a>
 
-  <h3 align="center">Blind spot object detection app</h3>
+  <h3 align="center">Blind spot object detection system</h3>
 
   <p align="center">
-    Ionic framework application that detects objects in the driver's blind spot and alerts the user of the threat.
+    A system that detects objects in the driver's blind spot and alerts the user of the threat through an ionic application.
     <br />
     <a href="https://github.com/haitham-chabayta/blind-spot-detection"><strong>Explore the docs »</strong></a>
     <br />
